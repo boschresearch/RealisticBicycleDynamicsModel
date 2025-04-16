@@ -1,5 +1,9 @@
-Realistic Bicycle Dynamics Model for SUMO
-===========================================
+<p align="center">
+<img src="resources/logo.svg" alt="drawing" width="600"/>
+</p>
+
+----------------------
+
 Contact: [Nico Ostendorf](nico.ostendorf@de.bosch.com)
 
 The Realistic Bicycle Dynamics Model for the ["Simulation of Urban MObility" (SUMO)](https://sumo.dlr.de/) simulator is based on real-world bicycle data from the [SimRa](https://www.digital-future.berlin/forschung/projekte/simra/) dataset. 
@@ -11,7 +15,7 @@ Please refer to the [SUMO wiki](https://sumo.dlr.de/docs/index.html) for further
 How to cite it:
 ----------------------
 
-N. Ostendorf, K. Garlichs, L. C. Wolf, "Enhancing Car-Following Models with Bike Dynamics for Improved Traffic Simulation"
+N. Ostendorf, K. Garlichs, and L. C. Wolf, “Enhancing Car-Following Models with Bike Dynamics for Improved Traffic Simulation,” in 2025 IEEE International Conference on Mobility, Operations, Services and Technologies (MOST)
 
 Build and Installation
 ----------------------
