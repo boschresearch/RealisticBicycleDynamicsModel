@@ -14,6 +14,7 @@ Please refer to the [SUMO wiki](https://sumo.dlr.de/docs/index.html) for further
 
 How to cite it:
 ----------------------
+Preprint of the corresponding paper available on arxiv: https://arxiv.org/abs/2507.00062
 
 N. Ostendorf, K. Garlichs, and L. C. Wolf, “Enhancing Car-Following Models with Bike Dynamics for Improved Traffic Simulation,” in 2025 IEEE International Conference on Mobility, Operations, Services and Technologies (MOST)
 
