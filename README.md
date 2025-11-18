@@ -14,9 +14,12 @@ Please refer to the [SUMO wiki](https://sumo.dlr.de/docs/index.html) for further
 
 How to cite it:
 ----------------------
-Preprint of the corresponding paper available on arxiv: https://arxiv.org/abs/2507.00062
+This work is further detailed in the following paper:
+- arXiv: https://arxiv.org/abs/2507.00062
+- IEEE Xplore: https://ieeexplore.ieee.org/document/11071343
 
-N. Ostendorf, K. Garlichs, and L. C. Wolf, “Enhancing Car-Following Models with Bike Dynamics for Improved Traffic Simulation,” in 2025 IEEE International Conference on Mobility, Operations, Services and Technologies (MOST)
+N. Ostendorf, K. Garlichs and L. C. Wolf, "Enhancing Car-Following Models with Bike Dynamics for Improved Traffic Simulation," 2025 IEEE 3rd International Conference on Mobility, Operations, Services and Technologies (MOST), Newark, DE, USA, 2025, pp. 135-142, doi: 10.1109/MOST65065.2025.00023. 
+
 
 Build and Installation
 ----------------------
@@ -37,7 +40,7 @@ For detailed build instructions have a look at [SUMO Documentation](https://sumo
 Usage
 ---------------
 
-To use the model you need to modify your trips file.
+To use the model you need to modify your trips file and the sumo config.
 
 First you need to add a new vType:
 
@@ -52,6 +55,14 @@ To each trip in your trips file you need to append a so called bikeFactor. This 
 ```
 
 An example notebook for automatic modification of a trip file is [tools/modifyTrips.ipynb](https://github.com/boschresearch/RealisticBicycleDynamicsModel/blob/main/tools/modifyTrips.ipynb).
+
+To avoid an "unknown parameter" error for bikeFactor, you need to explicitly disable XML validation in your SUMO configuration file (.sumocfg):
+
+```
+    <report>
+    	<xml-validation value="never"/>
+    </report>
+```
 
 
 Bugs
